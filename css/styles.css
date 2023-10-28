@@ -1,0 +1,179 @@
+/* Sultan Bataweel - 1947243 - Assignment 1 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url('../media/fonts/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.text-container {
+    background-color: rgba(0, 0, 0, 0.934);
+    border: 5px solid #ff0000;
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    color: #ff0000;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrap {
+    min-height: calc(100% - 70px);
+}
+
+.objectives,
+.experience,
+.projects,
+.contact {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #FF0000;
+}
+
+.nav-link {
+    font-family: 'Tilt Neon', sans-serif;
+    color: #FF0000;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: red !important;
+}
+
+.nav-pills .nav-link {
+    color: rgb(255, 255, 255);
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover {
+    background-color: #FF0000;
+}
+
+header {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+.panel {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.content {
+    max-width: 800px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #FF0000;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+.carousel-item {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 70%;
+    object-fit: contain;
+    width: 100%;
+}
+
+
+footer {
+    height: 100px;
+    line-height: 10px;
+    background-color: #000000;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #ff0000;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+footer a img {
+    height: 25px;
+}
+
+
+#AboutMe {
+    background-image: url('../media/photos/cyber5.png');
+    background-size: cover;
+    color: #ff0000;
+    font-size: x-large;
+}
+
+#Objectives {
+    background-image: url('../media/photos/cyber1.png');
+    background-size: cover;
+    color: #ff0000;
+    font-size: x-large;
+}
+
+#Education {
+    background-image: url('../media/photos/cyber2.png');
+    background-size: cover;
+    color: #ff0000;
+    font-size: x-large;
+}
+
+#Skills {
+    background-image: url('../media/photos/cyber3.png');
+    background-size: cover;
+    color: #ff0000;
+    font-size: x-large;
+}
+
+#Projects,
+#carouselExampleDark {
+    background-image: url('../media/photos/cyber3.png');
+    background-size: cover;
+    color: #ff0000;
+    font-size: x-large;
+}
+
+#Contact {
+    background-image: url('../media/photos/cyber4.png');
+    background-size: cover;
+    color: #ff0000;
+    font-size: x-large;
+}
